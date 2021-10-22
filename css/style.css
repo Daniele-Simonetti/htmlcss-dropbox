@@ -10,6 +10,10 @@ html {
   font-size: 100%;
   font-family: 'Open Sans', sans-serif;
 }
+
+body {
+  min-width: 500px;
+}
 /* /layout generale */
 
 /* struttura body */
@@ -44,6 +48,15 @@ html {
   width: 80%;
   margin: 0 auto;
 }
+
+/* padding rules e margin rules*/
+.mgt-3 {
+  margin-top: 3%;
+}
+
+.mgt-8 {
+  margin-top: 8%;
+}
 /* position rules */
 .relative {
   position: relative;
@@ -58,8 +71,8 @@ html {
 }
 
 /* btns */
-a.small-blue-btn {
-  background-color: #3B85FF;
+a.blue-btn {
+  background-color: #0061FF;
   color: white;
   display: inline-block;
   text-decoration: none;
@@ -69,6 +82,11 @@ a.small-blue-btn {
 /* sfondi */
 .blue-section {
   background-color: #B4D0E7;
+}
+
+/* font weight */
+.pbold {
+  font-weight: bold;
 }
 /* /regole generali */
 
@@ -109,13 +127,32 @@ ul.right-ul {
 /* main */
 /* prima sezione */
 .first-section {
-  height: 75vh;
+  height: 85vh;
   margin-top: 3.5em;
 }
 
-.first-section-title
+.first-section-title {
+  text-align: left;
+  font-size: 5.1em;
+  padding-top: 7%;
+}
+.first-section-text {
+  display: inline-block;
+  line-height: 2em;
+  width: 50%;
+  padding-right: 30%;
+}
+
+div.arrow-first-section {
+  margin-top: 20%;
+}
+div.arrow-first-section > a {
+  text-decoration: none;
+  color: black;
+  font-size: 4em;
+}
 
 .second-section {
   height: 75vh;
-  
 }
+  
