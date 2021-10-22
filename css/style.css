@@ -15,15 +15,12 @@ html {
 /* struttura body */
 
 body {
-  max-width: 1600px;
+  max-width: 80%;
   margin: 0 auto;
-  height: 100%;
 }
 
 /* regole di testing */
-header {
-  background-color: aliceblue
-}
+
 
 /* regole generali*/
 /* float rules */
@@ -41,6 +38,7 @@ header {
   float: right;
 }
 /* width rules */
+
 .width-90 {
   width: 90%;
   margin: 0 auto;
@@ -63,6 +61,7 @@ header {
   position: fixed;
 }
 
+/* btns */
 a.small-blue-btn {
   background-color: #3B85FF;
   color: white;
@@ -70,12 +69,20 @@ a.small-blue-btn {
   text-decoration: none;
   padding: 0.1em 1em;
 }
+
+/* sfondi */
+.blue-section {
+  background-color: #B4D0E7;
+}
 /* /regole generali */
 
 /* regole */
 /* header navbar  */
 nav.header-navbar {
   padding: 1em;
+  position: fixed;
+  width: 80%;
+  background-color: white;
 }
 ul.left-ul li,
 ul.right-ul li {
@@ -100,4 +107,10 @@ ul.left-ul {
 
 ul.right-ul {
   margin-right: 2em;
+}
+
+/* main */
+/* prima sezione */
+.first-section {
+  height: 70vh;
 }
