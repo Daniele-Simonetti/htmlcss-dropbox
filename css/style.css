@@ -153,10 +153,10 @@ div.arrow-first-section > a {
 }
 /* jumbotron first sec */
 div.jumbotron {
-  width: 50%;
+  width: 60%;
   position: absolute;
-  right: 12em;
-  bottom: 3em;
+  right: 2em;
+  top: 4em;
 }
 
 .jumbo-img {
