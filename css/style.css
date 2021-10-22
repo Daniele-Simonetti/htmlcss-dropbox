@@ -65,4 +65,28 @@ header {
 /* /regole generali */
 
 /* regole */
+/* header navbar  */
+header {
+  height: 60px;
+}
+
+nav.header-navbar {
+  height: 60px;
+ 
+}
+ul.left-ul li,
+ul.right-ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 1em;
+}
+
+ul.left-ul li > a,
+ul.right-ul li > a {
+  text-decoration: none;
+}
+
+img.logo-header {
+  vertical-align: middle;
+}
 
