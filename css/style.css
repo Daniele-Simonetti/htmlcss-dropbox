@@ -10,13 +10,47 @@ html {
   font-size: 100%;
   font-family: 'Open Sans', sans-serif;
 }
-/* layout generale */
+/* /layout generale */
 
 /* struttura body */
+
 body {
   max-width: 1200px;
   margin: 0 auto;
-  /* test */
-  background-color: red;
+  height: 100%;
 }
+
+/* regole di testing */
+header {
+  background-color: aliceblue
+}
+
+/* regole generali*/
+
+.clearfix::after {
+  content: '';
+  display: inline-table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.width-90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.width-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+/* /regole generali */
+
+/* regole */
 
