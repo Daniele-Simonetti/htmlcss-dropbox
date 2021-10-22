@@ -151,7 +151,17 @@ div.arrow-first-section > a {
   color: black;
   font-size: 4em;
 }
+/* jumbotron first sec */
+div.jumbotron {
+  width: 50%;
+  position: absolute;
+  right: 12em;
+  bottom: 3em;
+}
 
+.jumbo-img {
+  width: 100%;
+}
 .second-section {
   height: 75vh;
 }
