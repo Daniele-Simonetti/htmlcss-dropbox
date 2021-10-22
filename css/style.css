@@ -15,7 +15,7 @@ html {
 /* struttura body */
 
 body {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   height: 100%;
 }
@@ -62,31 +62,42 @@ header {
 .fixed {
   position: fixed;
 }
+
+a.small-blue-btn {
+  background-color: #3B85FF;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.1em 1em;
+}
 /* /regole generali */
 
 /* regole */
 /* header navbar  */
-header {
-  height: 60px;
-}
-
 nav.header-navbar {
-  height: 60px;
- 
+  padding: 1em;
 }
 ul.left-ul li,
 ul.right-ul li {
   display: inline-block;
   list-style-type: none;
-  margin: 1em;
+  margin: 0 2em;
 }
 
 ul.left-ul li > a,
 ul.right-ul li > a {
   text-decoration: none;
+  color: black;
 }
 
-img.logo-header {
+img .logo-header {
   vertical-align: middle;
 }
 
+ul.left-ul {
+  margin-left: 2em;
+}
+
+ul.right-ul {
+  margin-right: 2em;
+}
