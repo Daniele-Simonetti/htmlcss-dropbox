@@ -14,10 +14,6 @@ html {
 
 /* struttura body */
 
-body {
-  max-width: 80%;
-  margin: 0 auto;
-}
 
 /* regole di testing */
 
@@ -81,8 +77,8 @@ a.small-blue-btn {
 nav.header-navbar {
   padding: 1em;
   position: fixed;
-  top: 0%;
-  width: 80%;
+  top: 0;
+  width: 100%;
   background-color: white;
 }
 ul.left-ul li,
@@ -113,10 +109,13 @@ ul.right-ul {
 /* main */
 /* prima sezione */
 .first-section {
-  height: 100vh;
+  height: 75vh;
+  margin-top: 3.5em;
 }
 
+.first-section-title
+
 .second-section {
-  height: 100vh;
+  height: 75vh;
   
 }
