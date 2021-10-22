@@ -81,6 +81,8 @@ a.small-blue-btn {
 nav.header-navbar {
   padding: 1em;
   position: fixed;
+  top: 0;
+  left: 10%;
   width: 80%;
   background-color: white;
 }
@@ -112,5 +114,10 @@ ul.right-ul {
 /* main */
 /* prima sezione */
 .first-section {
-  height: 70vh;
+  height: 100vh;
+}
+
+.second-section {
+  height: 100vh;
+  
 }
