@@ -26,7 +26,7 @@ header {
 }
 
 /* regole generali*/
-
+/* float rules */
 .clearfix::after {
   content: '';
   display: inline-table;
@@ -40,7 +40,7 @@ header {
 .float-right {
   float: right;
 }
-
+/* width rules */
 .width-90 {
   width: 90%;
   margin: 0 auto;
@@ -49,6 +49,18 @@ header {
 .width-80 {
   width: 80%;
   margin: 0 auto;
+}
+/* position rules */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
 }
 /* /regole generali */
 
