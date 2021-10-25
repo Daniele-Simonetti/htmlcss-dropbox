@@ -50,12 +50,17 @@ body {
 }
 
 /* padding rules e margin rules*/
-.mgt-3 {
-  margin-top: 3%;
-}
 
 .mgt-8 {
   margin-top: 8%;
+}
+
+.mgt-7 {
+  margin-top: 7%;
+}
+
+.mgt-3 {
+  margin-top: 3%;
 }
 /* position rules */
 .relative {
@@ -289,21 +294,31 @@ span.icon-man-snd {
 /* contact selling center */
 .contact-selling-team {
   margin-top: 3%;
+  border: 1px solid lightgray;
 }
 .title-contact-team {
   text-align: center;
   padding: 0.8em 0;
-  border: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 .spacing-multiple-elements {
   margin: 1em 1em;
+  /* display: inline-block; */
 }
 
 .smallest-element {
-  margin-top: 2em;
-  font-size: 0.9em;
+  margin: 2em 1.5em;
+  font-size: 1em;
 }
 .container {
   height: 500px;
 }
+
+div.container-float-left-side {
+  width: 75%;
+}
+
+div.container-float-right-side{
+  width: 25%;
+} 
