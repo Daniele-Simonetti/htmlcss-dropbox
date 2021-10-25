@@ -182,6 +182,7 @@ div.jumbotron {
 /* second section */
 .second-section {
   padding-top: 15em;
+  height: 1500px;
 }
 
 .second-title {
@@ -246,6 +247,7 @@ div.buy-plan-infos {
 .infos-payment-method {
   color:gray;
   margin-top: 5%;
+  font-size: 0.8em;
 }
 
 /* details plan */
@@ -267,3 +269,20 @@ ul.plan-details-list li {
   width: 20%;
   margin: 5% 0 10% 0;
 }
+
+ul.plan-conclusion-list li {
+  padding: 5% 0;
+  font-size: 0.8em;
+}
+
+.second-title-column {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+span.icon-man-snd {
+  padding: 0 0.5em;
+  color: #0061FF;
+  font-size: 1.5em;
+}
+
