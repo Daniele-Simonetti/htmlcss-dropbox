@@ -411,10 +411,7 @@ span.underline {
 /* fifth section */
 
 .fifth-section {
-  height: 500px;
-  width: 100%;
-  
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 div.fifth-section-start-text {
@@ -437,9 +434,6 @@ p.generic-link a {
 }
 
 /* logos with varius colors */
-.logos-container {
-  /* background-color: red; */
-}
 
 .width-25 {
   width: 25%;
@@ -449,14 +443,10 @@ p.generic-link a {
   width: 50%;
 }
 
-img {
-  width: 60%;
-}
-
-.left-side-container {
+.left-side-container,
+.right-side-container {
   width: calc(25% / 2);
-  height: 318.125px;
-  background-color: red;
+  height: 220px;
   position: relative;
 }
 
@@ -465,6 +455,44 @@ img.logo {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 50%;
+  
 }
 
+.designit-text-explanation {
+  background-color: #f5f5f5;
+}
 
+/* logos background */
+#designit-logo {
+  background-color: #A2d39b;
+  border: 10px solid #d0e9cd;
+}
+
+#asu-logo {
+  background-color: #61082b;
+}
+
+#hearst-logo {
+  background-color: #B4d0e7;
+}
+
+#bicycle-logo {
+  background-color: #d5001f;
+}
+
+#uf-logo {
+  background-color: #0093ce;
+}
+
+#topps-logo {
+  background-color: #ff1c1c;
+}
+
+#channel-clear-logo {
+  background-color: #ffd830;
+}
+
+#lonely-logo {
+  background-color: #0d2481;
+}
