@@ -380,15 +380,11 @@ div.content-fourth-section h2 {
 }
 
 .second-column-left {
-  height: 200px;
   width: calc(100% / 3 - 6%);
-  background-color: black;
   margin: 0 6%;
 }
 .third-column-left {
-  height: 200px;
   width: calc(100% / 3 - 6%);
-  background-color: blue;
 }
 
 div.container-float-columns img {
