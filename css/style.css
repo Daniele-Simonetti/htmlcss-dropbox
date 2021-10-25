@@ -88,6 +88,11 @@ a.blue-btn {
 .pbold {
   font-weight: bold;
 }
+
+/* li rules */
+li {
+  list-style-type: none;
+}
 /* /regole generali */
 
 /* regole */
@@ -168,6 +173,7 @@ div.jumbotron {
 
 /* second section */
 .second-section {
+  height: 800px;
   padding-top: 15em;
 }
 
@@ -175,4 +181,34 @@ div.jumbotron {
   font-size: 2em;
   font-weight: bolder;
   /* padding-left: 15%; */
+}
+
+div.fake-check ul {
+  margin-top: 3%;
+}
+
+div.fake-check ul > li {
+  display: inline-block;
+}
+
+#fake-check-element {
+  margin-left: 1em;
+}
+
+/* columns second section */
+div.second-column {
+  margin: 0 5em;
+}
+div.float-column-clear {
+  margin-top: 3%;
+}
+
+div.float-column-clear > div {
+  width: calc(100% / 3 - 10em);
+}
+
+div.buy-plan {
+  text-align: center;
+  border: 1px solid lightgray;
+  padding: 0.6em 0;
 }
