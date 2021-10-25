@@ -187,7 +187,7 @@ div.jumbotron {
 /* second section */
 .second-section {
   padding-top: 15em;
-  height: 1500px;
+  
 }
 
 .second-title {
@@ -325,6 +325,10 @@ div.container-float-right-side{
 /* third section */
 .img-second-section {
   width: 60%;
+}
+
+#partner-img {
+  width: 100%;
 }
 
 .content-second-section {
