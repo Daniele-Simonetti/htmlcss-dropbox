@@ -212,7 +212,7 @@ div.float-column-clear {
 }
 
 div.float-column-clear > div {
-  width: calc(100% / 3 - 10em);
+  width: calc(100% / 3 - 4em);
 }
 
 /* buy plan column */
@@ -286,3 +286,24 @@ span.icon-man-snd {
   font-size: 1.5em;
 }
 
+/* contact selling center */
+.contact-selling-team {
+  margin-top: 3%;
+}
+.title-contact-team {
+  text-align: center;
+  padding: 0.8em 0;
+  border: 1px solid lightgray;
+}
+
+.spacing-multiple-elements {
+  margin: 1em 1em;
+}
+
+.smallest-element {
+  margin-top: 2em;
+  font-size: 0.9em;
+}
+.container {
+  height: 500px;
+}
