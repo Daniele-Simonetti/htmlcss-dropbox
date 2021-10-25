@@ -173,7 +173,6 @@ div.jumbotron {
 
 /* second section */
 .second-section {
-  height: 800px;
   padding-top: 15em;
 }
 
@@ -207,8 +206,41 @@ div.float-column-clear > div {
   width: calc(100% / 3 - 10em);
 }
 
+/* buy plan column */
 div.buy-plan {
   text-align: center;
   border: 1px solid lightgray;
   padding: 0.6em 0;
+}
+
+span.icon-man {
+  padding: 0 0.5em;
+}
+
+/* buy plan infos column */
+div.buy-plan-infos {
+  border: 1px solid lightgray;
+  border-top: none;
+  padding: 10% 10%;
+  height: 500px;
+}
+
+.infos-title {
+  font-weight: bolder;
+  font-size: 2.5em;
+}
+
+.infos-price {
+  font-size: 1.5em;
+  margin-top: 5%;
+}
+
+.infos-payment-method {
+  color:gray;
+  margin-top: 5%;
+}
+
+/* details plan */
+div.plan-details {
+  margin-top: 10%;
 }
