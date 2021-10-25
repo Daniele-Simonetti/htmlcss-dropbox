@@ -92,6 +92,15 @@ a.blue-btn-bigger {
   padding: 0.5em 3em;
 }
 
+a.white-btn {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.4em 1.2em;
+  border: 1px solid black;
+}
+
 /* sfondi */
 .blue-section {
   background-color: #B4D0E7;
@@ -323,7 +332,7 @@ div.container-float-right-side{
 } 
 
 /* third section */
-.img-second-section {
+.img-third-section {
   width: 60%;
 }
 
@@ -331,12 +340,24 @@ div.container-float-right-side{
   width: 100%;
 }
 
-.content-second-section {
+.content-third-section {
   width: 40%;
+  padding: 5% 0 0 5%;
 }
-
-
 
 .third-section {
   margin-top: 10em;
+}
+
+div.content-third-section h2 {
+  font-size: 2em;
+}
+
+div.content-third-section p {
+  line-height: 2em;
+  margin-top: 2em;
+}
+
+div.content-third-section a {
+  margin-top: 1.5em;
 }
