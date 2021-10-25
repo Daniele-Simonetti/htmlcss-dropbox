@@ -49,6 +49,11 @@ body {
   margin: 0 auto;
 }
 
+
+.width-45 {
+  width: 45%;
+  margin: 0 auto;
+}
 /* padding rules e margin rules*/
 
 .mgt-8 {
@@ -375,16 +380,14 @@ div.content-fourth-section h2 {
 .container-float-columns {
   margin-top: 7%;
 }
-.first-column-left {
+.first-column-left,
+.third-column-left {
   width: calc(100% / 3 - 6%);
 }
 
 .second-column-left {
   width: calc(100% / 3 - 6%);
   margin: 0 6%;
-}
-.third-column-left {
-  width: calc(100% / 3 - 6%);
 }
 
 div.container-float-columns img {
@@ -404,3 +407,64 @@ div.container-float-columns p {
 span.underline {
   text-decoration: none;
 }
+
+/* fifth section */
+
+.fifth-section {
+  height: 500px;
+  width: 100%;
+  
+  margin-top: 15%;
+}
+
+div.fifth-section-start-text {
+  display: block;
+  padding-right: 20%;
+}
+
+div.fifth-section-start-text h2 {
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+div.fifth-section-start-text p {
+  margin: 3em 0;
+}
+
+p.generic-link a {
+  text-decoration: underline;
+  color: #0061FF;
+}
+
+/* logos with varius colors */
+.logos-container {
+  /* background-color: red; */
+}
+
+.width-25 {
+  width: 25%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+img {
+  width: 60%;
+}
+
+.left-side-container {
+  width: calc(25% / 2);
+  height: 318.125px;
+  background-color: red;
+  position: relative;
+}
+
+img.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
