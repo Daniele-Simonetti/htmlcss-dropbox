@@ -79,6 +79,14 @@ a.blue-btn {
   padding: 0.1em 1em;
 }
 
+a.blue-btn-bigger {
+  background-color: #0061FF;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em 3em;
+}
+
 /* sfondi */
 .blue-section {
   background-color: #B4D0E7;
@@ -222,7 +230,7 @@ div.buy-plan-infos {
   border: 1px solid lightgray;
   border-top: none;
   padding: 10% 10%;
-  height: 500px;
+  height: 1000px;
 }
 
 .infos-title {
@@ -242,5 +250,20 @@ div.buy-plan-infos {
 
 /* details plan */
 div.plan-details {
-  margin-top: 10%;
+  margin-top: 15%;
+}
+
+.generic-link {
+  color: #0061FF;
+}
+
+ul.plan-details-list li {
+  padding: 5% 0;
+  font-size: 0.8em;
+}
+
+#small-row {
+  color: gray;
+  width: 20%;
+  margin: 5% 0 10% 0;
 }
