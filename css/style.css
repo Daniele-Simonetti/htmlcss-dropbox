@@ -16,11 +16,6 @@ body {
 }
 /* /layout generale */
 
-/* struttura body */
-
-
-/* regole di testing */
-
 
 /* regole generali*/
 /* float rules */
@@ -46,6 +41,11 @@ body {
 
 .width-80 {
   width: 80%;
+  margin: 0 auto;
+}
+
+.width-70 {
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -129,7 +129,6 @@ ul.right-ul {
 /* main */
 /* prima sezione */
 .first-section {
-  /* height: 85vh; */
   margin-top: 3.5em;
 }
 
@@ -164,9 +163,16 @@ div.jumbotron {
   top: 4em;
 }
 .jumbo-img {
-  width: 100%;
+  width: 90%;
 }
+
+/* second section */
 .second-section {
-  height: 75vh;
+  padding-top: 15em;
 }
-  
+
+.second-title {
+  font-size: 2em;
+  font-weight: bolder;
+  /* padding-left: 15%; */
+}
