@@ -96,8 +96,10 @@ nav.header-navbar {
   padding: 1em;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   background-color: white;
+  z-index: 10;
 }
 ul.left-ul li,
 ul.right-ul li {
@@ -139,8 +141,8 @@ ul.right-ul {
 .first-section-text {
   display: inline-block;
   line-height: 2em;
-  width: 50%;
-  padding-right: 30%;
+  width: 40%;
+  padding-right: 15%;
 }
 
 div.arrow-first-section {
