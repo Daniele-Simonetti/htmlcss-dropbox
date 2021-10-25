@@ -366,3 +366,45 @@ div.content-third-section a {
 .fourth-section {
   margin-top: 10em;
 }
+
+div.content-fourth-section h2 {
+  font-size: 3em;
+}
+
+/* float columns fourth section */
+.container-float-columns {
+  margin-top: 7%;
+}
+.first-column-left {
+  width: calc(100% / 3 - 6%);
+}
+
+.second-column-left {
+  height: 200px;
+  width: calc(100% / 3 - 6%);
+  background-color: black;
+  margin: 0 6%;
+}
+.third-column-left {
+  height: 200px;
+  width: calc(100% / 3 - 6%);
+  background-color: blue;
+}
+
+div.container-float-columns img {
+  width: 100%;
+}
+
+div.container-float-columns h3 {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+div.container-float-columns p {
+  margin-top: 10%;
+  line-height: 1.5em;
+}
+
+span.underline {
+  text-decoration: underline;
+}
