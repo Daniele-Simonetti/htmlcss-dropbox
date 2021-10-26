@@ -559,7 +559,16 @@ div.generic-box h2 {
 
 /* footer fifth section */
 div.footer-fifth-section {
-  background-color: black;
   height: 400px;
-  
+  padding: 10% 2%;
+}
+
+h3.fifth-footer-title {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+li.border-bottom {
+  border-bottom: 1px solid gray;
+  padding-bottom:5%;
 }
