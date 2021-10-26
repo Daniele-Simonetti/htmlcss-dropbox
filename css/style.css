@@ -433,16 +433,7 @@ p.generic-link a {
   color: #0061FF;
 }
 
-/* logos with varius colors */
-
-/* .width-25 {
-  width: 25%;
-}
-
-.width-50 {
-  width: 50%;
-} */
-
+/* logos with varius colors layout */
 .left-side-container,
 .right-side-container {
   width: calc(100% / 2);
@@ -498,6 +489,7 @@ div.float-container {
   height: 500px;
 }
 
+/* layout colonne */
 .first-column-left {
   width: 25%;
   height: 50%;
@@ -516,6 +508,7 @@ div.float-container {
   height: 50%;
   background-color: blue;
 }
+/* /layout colonne */
 
 /* testo colonna centrale */
 .designit-logo-text {
@@ -531,3 +524,17 @@ div.float-container {
   margin: 5% 0 10% 0;
 }
 
+/* footer quinta sezione */
+div.light-blue {
+  background-color: #B4d0e7;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+div.h2-box h2 a {
+  font-size: 2em;
+  font-weight: bolder;
+  text-decoration: none;
+}
