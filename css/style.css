@@ -106,6 +106,14 @@ a.white-btn {
   border: 1px solid black;
 }
 
+a.white-btn-xborder {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em 4.2em;
+}
+
 /* sfondi */
 .blue-section {
   background-color: #B4D0E7;
@@ -524,7 +532,7 @@ div.float-container {
   margin: 5% 0 10% 0;
 }
 
-/* footer quinta sezione */
+/* footer colonne quinta sezione */
 div.light-blue {
   background-color: #B4d0e7;
 }
@@ -533,8 +541,25 @@ div.light-blue {
   width: 50%;
 }
 
-div.h2-box h2 a {
+div.generic-box h2 a {
   font-size: 2em;
   font-weight: bolder;
   text-decoration: none;
+}
+
+div.generic-box {
+  padding: 28% 0;
+  text-align: center;
+}
+
+div.generic-box h2 {
+  text-align: left;
+}
+
+
+/* footer fifth section */
+div.footer-fifth-section {
+  background-color: black;
+  height: 400px;
+  
 }
