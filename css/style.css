@@ -581,6 +581,43 @@ div.arrow-container {
   text-align: center;
 }
 
-p.text-footer {
+p.text-footer-fifth-section {
   font-weight: bolder;
+}
+
+/* footer */
+footer {
+  height: 400px;
+  background-color: black;
+}
+
+.footer-container {
+  color: white;
+  height: 400px;
+  text-align: center;
+  padding: 5% 0;
+}
+
+div.ul-column.float-left {
+  width: calc(100% / 5);
+}
+
+div.ul-column.float-left h3 {
+  font-size: 1.7em;
+  font-weight: bolder;
+  padding-bottom: 7%;
+}
+
+div.ul-column.float-left ul {
+  text-align: left;
+}
+
+div.ul-column.float-left li a {
+  text-decoration: none;
+  color: white;
+}
+
+div.ul-column.float-left li {
+  line-height: 2em;
+  font-size: 0.8em;
 }
