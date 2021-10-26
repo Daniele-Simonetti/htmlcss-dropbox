@@ -570,5 +570,18 @@ h3.fifth-footer-title {
 
 li.border-bottom {
   border-bottom: 1px solid gray;
-  padding-bottom:5%;
+  padding:5% 0;
+}
+
+.width-10 {
+  width: 10%;
+}
+
+div.arrow-container {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+p.text-footer {
+  font-weight: bolder;
 }
