@@ -501,7 +501,7 @@ div.float-container {
 .first-column-left {
   width: 25%;
   height: 50%;
-  background-color: red;
+  
 }
 
 .middle-column {
@@ -587,13 +587,11 @@ p.text-footer-fifth-section {
 
 /* footer */
 footer {
-  height: 400px;
   background-color: black;
+  color: white;
 }
 
 .footer-container {
-  color: white;
-  height: 400px;
   text-align: center;
   padding: 5% 0;
 }
@@ -620,4 +618,17 @@ div.ul-column.float-left li a {
 div.ul-column.float-left li {
   line-height: 2em;
   font-size: 0.8em;
+}
+
+/* last logo */
+.last-logo {
+  font-size: 0.8em;
+  color: lightgray;
+  border-top: 1px solid gray;
+  display: inline-block;
+  padding: 4em 1em 5em 0;
+}
+
+.language-footer {
+  padding-left: 0.5em;
 }
