@@ -459,10 +459,6 @@ img.logo {
   
 }
 
-.designit-text-explanation {
-  background-color: #f5f5f5;
-}
-
 /* logos background */
 #designit-logo {
   background-color: #A2d39b;
@@ -497,21 +493,41 @@ img.logo {
   background-color: #0d2481;
 }
 
-/* testing fifth section */
+/* column fifth section */
+div.float-container {
+  height: 500px;
+}
+
 .first-column-left {
   width: 25%;
-  height: 300px;
+  height: 50%;
   background-color: red;
 }
 
 .middle-column {
   width: 50%;
-  height: 600px;
-  /* background-color: black; */
+  background-color: #f5f5f5;
+  padding: 2.5em 2.5em;
+  height: 100%;
 }
 
 .right-column {
   width: 25%;
-  height: 300px;
+  height: 50%;
   background-color: blue;
 }
+
+/* testo colonna centrale */
+.designit-logo-text {
+  width: 15%;
+}
+
+.last-hr {
+  width: 15%;
+  margin: 5% 0 10% 0;
+}
+
+.writer-credits {
+  margin: 5% 0 10% 0;
+}
+
