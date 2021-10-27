@@ -242,7 +242,7 @@ div.fake-check ul > li {
 
 /* columns second section */
 div.second-column {
-  margin: 0 5em;
+  margin: 0 6em;
 }
 div.float-column-clear {
   margin-top: 3%;
@@ -268,7 +268,7 @@ div.buy-plan-infos {
   border: 1px solid lightgray;
   border-top: none;
   padding: 10% 10%;
-  min-height: 1000px;
+  min-height: 1011px;
   max-height: 100%;
 }
 
