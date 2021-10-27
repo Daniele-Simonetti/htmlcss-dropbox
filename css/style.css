@@ -135,7 +135,7 @@ ul.right-ul:hover li {
   padding-bottom: 4%;
 }
 
-#link-footer:hover  {
+.link-footer:hover  {
   text-decoration: underline;
 }
 
@@ -302,7 +302,7 @@ ul.plan-details-list li {
   font-size: 0.8em;
 }
 
-#small-row {
+.small-row {
   color: gray;
   width: 20%;
   margin: 5% 0 10% 0;
